@@ -1,5 +1,8 @@
+body{
+    background-image: url(resource/WarOnParking_TA_GettyImages-83314262.png);
+}
 .btn {
-    background-color: #4CAF50;
+    background-color: #403aef;
     border: 2px solid #000080;
     color: white;
     padding: 10px 30px;
@@ -9,8 +12,65 @@
     font-size: 12px;
     outline: 2px;
 }
+h1
+{
+    background: #828181F7;
+  color: #130aee;
+    text-align: center;
+}
+#myForm{
+    background: rgba(130, 129, 129, 0.97);
+    min-height: 75%;
+    width: 80%;
+    margin: 0 auto;
+    border: #fffefe 9px dashed;
+    border-radius: 20px;
 
-.inf {
-    width: 500px;
-    height:750px;
+}
+.active{
+    display: flex;
+    justify-content: center;
+}
+.passive{
+    display: none;
+}
+.block{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.element{
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    font-size: 20px;
+    width: 300px;
+    margin: 10px 5px;
+}
+.wrapper{
+    display: flex;
+    flex-direction: row;
+   min-height: 300px;
+}
+#tabletable{
+    max-height: 400px;
+    color:white;
+}
+th, td {
+    background: #eeebeb;
+    height: 20px;
+    color: black;
+    border: 1px solid black;
+}
+th{
+    background: #000eff;
+    color: #ffffff;
+}
+.max{
+
+    color: red;
+    margin-right: 10px;
+}
+.min{
+    color:#000eff;
 }
